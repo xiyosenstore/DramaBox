@@ -40,9 +40,9 @@ function Iklan({ imageUrl, linkUrl, alt, className, page }: AdProps) {
         </a>
       ) : (
         <div className="text-sm text-white/70 space-y-2">
-          <p>Mau pasang iklan di sini?</p>
+          <p>info sosial</p>
           <p>
-            Hubungi saya di{" "}
+            media {" "}
             <a
               target="_blank"
               href={config.BUSSINESS_CONTACT_TELE}
