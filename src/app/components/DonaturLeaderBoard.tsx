@@ -11,7 +11,7 @@ function DonaturLeaderboard() {
   const donaturList: {
     name: string;
     amount: number;
-  }[] = [{ name: "Felix", amount: 50000 }];
+  }[] = [{ name: "Sandy_778", amount: 5000 }];
 
   const sortedList = [...donaturList].sort((a, b) => b.amount - a.amount);
 
@@ -58,7 +58,7 @@ function DonaturLeaderboard() {
                   <tr className="text-gray-400 text-sm">
                     <th className="py-2">Rank</th>
                     <th className="py-2">Nama</th>
-                    <th className="py-2">Jumlah Donasi</th>
+                    <th className="py-2">Donasi 5k</th>
                   </tr>
                 </thead>
                 <tbody>
