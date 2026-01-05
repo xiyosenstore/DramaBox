@@ -20,7 +20,7 @@ function Iklan({ imageUrl, linkUrl, alt, className, page }: AdProps) {
       }`}
     >
       <div className="flex items-center justify-between mb-3">
-        <h3 className="font-display text-lg">DramaBox</h3>
+        <h3 className="font-display text-lg">iklan</h3>
       </div>
 
       {hasAd ? (
