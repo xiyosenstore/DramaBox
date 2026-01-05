@@ -2,6 +2,6 @@ export const config = {
   PROJECT_NAME: process.env.PROJECT_NAME || "DramaBoxGratis",
   BUSSINESS_CONTACT_TELE:
     process.env.NEXT_PUBLIC_BUSSINESS_CONTACT_TELE ||
-    "https://t.me/dramaboxgratis",
+    "https://t.me/Bleszh",
   NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXX",
 };
