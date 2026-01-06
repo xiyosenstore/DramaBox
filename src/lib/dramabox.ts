@@ -97,7 +97,7 @@ export async function withTokenRetry<T = any>(
 
 // === API helpers ===
 export async function fetchLatest(pageNo = 1) {
-  const URL = "https://dramabox.sansekai.my.id/api/dramabox/vip";
+  const URL = "https://drama-box-api-seven.vercel.app";
   return withTokenRetry(async (tk) => {
     const headers = buildHeaders(tk);
     const data = {
@@ -112,7 +112,7 @@ export async function fetchLatest(pageNo = 1) {
 }
 
 export async function fetchStream(bookId: string, index = 1) {
-  const URL = "https://dramabox.sansekai.my.id/api/dramabox/latest";
+  const URL = "https://drama-box-api-seven.vercel.app";
   return withTokenRetry(async (tk) => {
     const headers = buildHeaders(tk);
     const data = {
@@ -134,7 +134,7 @@ export async function fetchStream(bookId: string, index = 1) {
 }
 
 export async function fetchSuggest(keyword: string) {
-  const URL = "https://dramabox.sansekai.my.id/api/dramabox/randomdrama";
+  const URL = "https://drama-box-api-seven.vercel.app";
   return withTokenRetry(async (tk) => {
     const headers = buildHeaders(tk);
     const data = { keyword };
